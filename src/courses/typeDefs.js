@@ -10,7 +10,7 @@ input CourseInput {
     credits: Int!
     professor: String!
 }`;
-
+//dd
 export const coursesQueries = `
     allCourses: [Course]!
     courseByCode(code: Int!): Course!
